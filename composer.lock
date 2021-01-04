@@ -326,12 +326,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alexku/blt-github-actions.git",
-                "reference": "2ca1f37d77c78a6cf625e45e4c1c81d0b0ce14a7"
+                "reference": "69b9b4a7e0dffdfd2bc506543d0286cfe4ace493"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexku/blt-github-actions/zipball/2ca1f37d77c78a6cf625e45e4c1c81d0b0ce14a7",
-                "reference": "2ca1f37d77c78a6cf625e45e4c1c81d0b0ce14a7",
+                "url": "https://api.github.com/repos/alexku/blt-github-actions/zipball/69b9b4a7e0dffdfd2bc506543d0286cfe4ace493",
+                "reference": "69b9b4a7e0dffdfd2bc506543d0286cfe4ace493",
                 "shasum": ""
             },
             "type": "library",
@@ -354,7 +354,7 @@
                 }
             ],
             "description": "Github Actions integration for Acquia BLT.",
-            "time": "2021-01-04T14:36:07+00:00"
+            "time": "2021-01-04T15:37:47+00:00"
         },
         {
             "name": "asm89/stack-cors",
