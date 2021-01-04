@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3e9777d591f15aed9da69069e8986cdc",
+    "content-hash": "23e0804653cce9fb63c37313d2f4143c",
     "packages": [
         {
             "name": "acquia/blt",
@@ -319,6 +319,42 @@
             ],
             "description": "Recommended Memcache settings for use with Acquia hosting.",
             "time": "2020-07-02T14:36:03+00:00"
+        },
+        {
+            "name": "alexku/blt-github-actions",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexku/blt-github-actions.git",
+                "reference": "2ca1f37d77c78a6cf625e45e4c1c81d0b0ce14a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexku/blt-github-actions/zipball/2ca1f37d77c78a6cf625e45e4c1c81d0b0ce14a7",
+                "reference": "2ca1f37d77c78a6cf625e45e4c1c81d0b0ce14a7",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Acquia\\GithubActions\\": "./src/"
+                },
+                "classmap": [
+                    "src/Blt/Plugin/EnvironmentDetector/GithubActionsDetector.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Ku",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Github Actions integration for Acquia BLT.",
+            "time": "2021-01-04T14:36:07+00:00"
         },
         {
             "name": "asm89/stack-cors",
@@ -3880,10 +3916,10 @@
                     }
                 },
                 "patches_applied": {
-                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch",
-                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch",
+                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                     "[subprofile support] 1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch",
-                    "[subprofile support] 2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch"
+                    "[subprofile support] 2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
+                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch"
                 }
             },
             "autoload": {
@@ -15475,6 +15511,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "acquia/lightning": 20,
+        "alexku/blt-github-actions": 20,
         "acquia/blt-require-dev": 20
     },
     "prefer-stable": true,
